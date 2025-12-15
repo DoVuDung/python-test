@@ -1,29 +1,33 @@
 {
   "summary": {
     "total_tasks": 4,
-    "completed_tasks": 4,
-    "failed_tasks": 0,
-    "dlq_count": 0,
-    "total_duration": 0.4
+    "completed_tasks": 2,
+    "failed_tasks": 1,
+    "dlq_count": 1,
+    "total_duration": 0.30000000000000004
   },
   "completed_tasks": [
     "task_a",
-    "task_b",
-    "task_c",
-    "task_d"
+    "task_b"
   ],
-  "failed_tasks": [],
-  "dlq": [],
+  "failed_tasks": [
+    "task_c"
+  ],
+  "dlq": [
+    {
+      "task": "task_d",
+      "reason": "Failed dependencies: task_c",
+      "timestamp": 42.0
+    }
+  ],
   "execution_order": [
     "task_a",
     "task_b",
-    "task_c",
-    "task_d"
+    "task_c"
   ],
   "task_durations": {
     "task_a": 0.1,
     "task_b": 0.2,
-    "task_c": 0.15,
-    "task_d": 0.1
+    "task_c": 0.15
   }
 }
