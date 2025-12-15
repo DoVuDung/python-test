@@ -1,0 +1,5 @@
+# Ultra-Live Pipeline Engine
+# No external dependencies required
+
+# This project requires Python 3.10+
+# All dependencies are part of the Python Standard Library
