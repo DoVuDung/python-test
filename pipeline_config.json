@@ -1,0 +1,29 @@
+{
+  "seed": 42,
+  "tasks": [
+    {
+      "name": "task_a",
+      "dependencies": [],
+      "execution_time": 0.1,
+      "failure_rate": 0.1
+    },
+    {
+      "name": "task_b",
+      "dependencies": ["task_a"],
+      "execution_time": 0.2,
+      "failure_rate": 0.05
+    },
+    {
+      "name": "task_c",
+      "dependencies": ["task_a"],
+      "execution_time": 0.15,
+      "failure_rate": 0.2
+    },
+    {
+      "name": "task_d",
+      "dependencies": ["task_b", "task_c"],
+      "execution_time": 0.1,
+      "failure_rate": 0.0
+    }
+  ]
+}

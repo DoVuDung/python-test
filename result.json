@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "total_tasks": 4,
+    "completed_tasks": 4,
+    "failed_tasks": 0,
+    "dlq_count": 0,
+    "total_duration": 0.4
+  },
+  "completed_tasks": [
+    "task_a",
+    "task_b",
+    "task_c",
+    "task_d"
+  ],
+  "failed_tasks": [],
+  "dlq": [],
+  "execution_order": [
+    "task_a",
+    "task_b",
+    "task_c",
+    "task_d"
+  ],
+  "task_durations": {
+    "task_a": 0.1,
+    "task_b": 0.2,
+    "task_c": 0.15,
+    "task_d": 0.1
+  }
+}
